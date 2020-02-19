@@ -10,7 +10,7 @@
                 Types.STRING(),
                 Types.STRING(),
                 Types.LONG()};
- OpenTSDBTableSink tsdbTableSink = new OpenTSDBTableSink(outputFieldNames, outputTypes, jobConfig.getOpenTSDBHost(), "es_sync_log_metrics");
+ OpenTSDBTableSink tsdbTableSink = new OpenTSDBTableSink(outputFieldNames, outputTypes, jobConfig.getOpenTSDBHost(), "xxx_metrics");
  bsTableEnv.registerTableSink("opentsdb_output", tsdbTableSink);
 
 ```
