@@ -1,0 +1,4 @@
+top/huster/sink/OpenTSDBTableSink.class
+top/huster/sink/OpenTSDBSinkFunction.class
+top/huster/domain/OpenTSDBDTO.class
+top/huster/sink/OpenTsDBSerializationSchema.class
